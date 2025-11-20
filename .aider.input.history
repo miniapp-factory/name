@@ -1,0 +1,434 @@
+
+# 2025-11-20 20:00:02.268101
++Code the following app
++```
++Technical Specification (TS) – Family Tree Builder Application
++1. Project Overview
++
++The Family Tree Builder is a software application designed to create, edit, and visualize family trees. The program allows users to store personal information about relatives, track relationships, attach media files, and generate multi-generation diagrams.
++The app is intended for genealogy research, family history documentation, and personal use.
++
++2. Functional Requirements
++2.1 Person Profile Management
++
++The program must allow users to:
++
++Add new family members
++
++Edit or delete existing profiles
++
++Enter personal details:
++
++Full name
++
++Date of birth / death
++
++Gender
++
++Photos
++
++Biography or notes
++
++Occupation (optional)
++
++2.2 Relationship Management
++
++The system must support:
++
++Parent → Child links
++
++Sibling relationships
++
++Marriage / partnership links
++
++Divorce / separation
++
++Multiple marriages
++
++Step-family or adopted family connections
++
++2.3 Tree Visualization
++
++The app should generate a visual family tree:
++
++Horizontal or vertical layout
++
++Expand/collapse generation levels
++
++Display key data next to each person
++
++Smooth navigation (scrolling, zooming)
++
++Highlight selected individual and direct relatives
++
++Optional visualization modes:
++
++Pedigree chart
++
++Descendant chart
++
++Full tree chart
++
++2.4 Search and Filtering
++
++The program must support:
++
++Search by name
++
++Search by date of birth or death
++
++Filters:
++
++By generation
++
++By surname
++
++By branch of the family
++
++Quick navigation to a selected person
++
++2.5 Media and Documents
++
++Users should be able to:
++
++Attach photos (PNG/JPG)
++
++Attach documents (PDF/notes)
++
++Link media to specific events (e.g., wedding, birth)
++
++View gallery for each family member
++
++2.6 Event Timeline (Optional)
++
++The system may include a timeline showing:
++
++Birth dates
++
++Marriages
++
++Important historical or personal events
++
++Users can view the timeline per individual or for the entire family.
++
++2.7 Data Backup & Export
++
++The application must support:
++
++Exporting family tree to:
++
++PDF (diagram)
++
++Image (PNG)
++
++GEDCOM (common genealogy format)
++
++Importing data from GEDCOM
++
++Local backup and restore
++
++2.8 User Notes & Tags
++
++Users can:
++
++Add personal notes
++
++Assign tags (e.g., “research needed”, “confirmed”, “maternal line”)
++
++Mark incomplete data
++
++3. Non-Functional Requirements
++3.1 Platform
++
++The program can be:
++
++Desktop app (Windows/Mac/Linux)
++
++Web application
++
++Mobile app (optional)
++
++3.2 Performance
++
++Trees with up to 1,000 individuals should load within 1 second
++
++Smooth zoom and navigation
++
++Efficient memory usage for large trees
++
++3.3 Data Storage
++
++Local database (SQLite recommended) or local JSON/XML files
++
++Optionally: cloud sync
++
++3.4 Security
++
++Family data must be stored locally unless cloud sync is explicitly enabled
++
++If cloud sync is used → encryption required
++
++3.5 Usability
++
++Intuitive interface
++
++Drag-and-drop features for rearranging tree (optional)
++
++Undo/redo support
++
++4. Technical Stack (Recommended)
++Option A – Desktop Application (Python)
++
++Python
++
++PyQt5 or Tkinter
++
++SQLite for database
++
++Graphviz/d3-like library for visualization
++
++Option B – Web Application
++
++Frontend: React / Vue.js
++
++Backend: Node.js / Django
++
++Database: PostgreSQL / MongoDB
++
++Visualization: D3.js
++
++Option C – Mobile
++
++Flutter or React Native
++
++5. Future Extensions
++
++DNA test integration (Ancestry/23andMe style)
++
++Collaboration between multiple users
++
++Automatic tree generation from uploaded documents
++
++AI-powered relationship suggestion (optional)
++
++Historical map of family migrations
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-20 20:00:02.269696
++Code the following app
++```
++Technical Specification (TS) – Family Tree Builder Application
++1. Project Overview
++
++The Family Tree Builder is a software application designed to create, edit, and visualize family trees. The program allows users to store personal information about relatives, track relationships, attach media files, and generate multi-generation diagrams.
++The app is intended for genealogy research, family history documentation, and personal use.
++
++2. Functional Requirements
++2.1 Person Profile Management
++
++The program must allow users to:
++
++Add new family members
++
++Edit or delete existing profiles
++
++Enter personal details:
++
++Full name
++
++Date of birth / death
++
++Gender
++
++Photos
++
++Biography or notes
++
++Occupation (optional)
++
++2.2 Relationship Management
++
++The system must support:
++
++Parent → Child links
++
++Sibling relationships
++
++Marriage / partnership links
++
++Divorce / separation
++
++Multiple marriages
++
++Step-family or adopted family connections
++
++2.3 Tree Visualization
++
++The app should generate a visual family tree:
++
++Horizontal or vertical layout
++
++Expand/collapse generation levels
++
++Display key data next to each person
++
++Smooth navigation (scrolling, zooming)
++
++Highlight selected individual and direct relatives
++
++Optional visualization modes:
++
++Pedigree chart
++
++Descendant chart
++
++Full tree chart
++
++2.4 Search and Filtering
++
++The program must support:
++
++Search by name
++
++Search by date of birth or death
++
++Filters:
++
++By generation
++
++By surname
++
++By branch of the family
++
++Quick navigation to a selected person
++
++2.5 Media and Documents
++
++Users should be able to:
++
++Attach photos (PNG/JPG)
++
++Attach documents (PDF/notes)
++
++Link media to specific events (e.g., wedding, birth)
++
++View gallery for each family member
++
++2.6 Event Timeline (Optional)
++
++The system may include a timeline showing:
++
++Birth dates
++
++Marriages
++
++Important historical or personal events
++
++Users can view the timeline per individual or for the entire family.
++
++2.7 Data Backup & Export
++
++The application must support:
++
++Exporting family tree to:
++
++PDF (diagram)
++
++Image (PNG)
++
++GEDCOM (common genealogy format)
++
++Importing data from GEDCOM
++
++Local backup and restore
++
++2.8 User Notes & Tags
++
++Users can:
++
++Add personal notes
++
++Assign tags (e.g., “research needed”, “confirmed”, “maternal line”)
++
++Mark incomplete data
++
++3. Non-Functional Requirements
++3.1 Platform
++
++The program can be:
++
++Desktop app (Windows/Mac/Linux)
++
++Web application
++
++Mobile app (optional)
++
++3.2 Performance
++
++Trees with up to 1,000 individuals should load within 1 second
++
++Smooth zoom and navigation
++
++Efficient memory usage for large trees
++
++3.3 Data Storage
++
++Local database (SQLite recommended) or local JSON/XML files
++
++Optionally: cloud sync
++
++3.4 Security
++
++Family data must be stored locally unless cloud sync is explicitly enabled
++
++If cloud sync is used → encryption required
++
++3.5 Usability
++
++Intuitive interface
++
++Drag-and-drop features for rearranging tree (optional)
++
++Undo/redo support
++
++4. Technical Stack (Recommended)
++Option A – Desktop Application (Python)
++
++Python
++
++PyQt5 or Tkinter
++
++SQLite for database
++
++Graphviz/d3-like library for visualization
++
++Option B – Web Application
++
++Frontend: React / Vue.js
++
++Backend: Node.js / Django
++
++Database: PostgreSQL / MongoDB
++
++Visualization: D3.js
++
++Option C – Mobile
++
++Flutter or React Native
++
++5. Future Extensions
++
++DNA test integration (Ancestry/23andMe style)
++
++Collaboration between multiple users
++
++Automatic tree generation from uploaded documents
++
++AI-powered relationship suggestion (optional)
++
++Historical map of family migrations
++```
++
++Generate an app logo and update the app metadata title and description.
